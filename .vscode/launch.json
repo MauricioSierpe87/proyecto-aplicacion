@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "LeufucadeApp-main",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--web-port=6000"
+            ]
+        },
+        {
+            "name": "LeufucadeApp-main (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "args": [
+                "--web-port=6000"
+            ]
+        },
+        {
+            "name": "LeufucadeApp-main (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "args": [
+                "--web-port=6000"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+name: leufucadeapp
+description: "A new Flutter project."
+
+# Previene la publicación accidental del paquete en pub.dev
+publish_to: 'none'
+
+# Define la versión de la aplicación
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8  # Iconos estilo iOS
+  intl: ^0.20.0  # Manejo de internacionalización
+  meta: ^1.15.0  # Metadatos para análisis estático
+  http: any
+  dio: ^5.0.0
+  cookie_jar: ^4.0.8
+  dio_cookie_manager: ^3.1.1
+  path_provider: ^2.0.9
+  flutter_test:
+    sdk: flutter  # Herramientas de prueba
+  flutter_lints: ^5.0.0  # Buenas prácticas de codificación
+  image_picker: ^1.1.2  # Selector de imágenes
+  barcode_scan2: ^4.2.0
+  camera: ^0.10.0  # Escaneo de códigos de barras
+  mysql1: ^0.20.0  # Cliente para MySQL
+  fl_chart: 0.69.2  # Gráficos y visualización de datos
+
+flutter:
+  uses-material-design: true  # Habilita Material Icons
+  assets:
+    - assets/images/  # Carpeta para imágenes del proyecto
+
+# Comentarios adicionales se han eliminado para una mejor legibilidad.
